@@ -14,6 +14,24 @@ export type TimelineEntry = {
 // from repository history rather than a submission date
 export const timeline: TimelineEntry[] = [
   {
+    title: 'Director, Web Development',
+    subtitle: 'DLSU College of Computer Studies Government',
+    blurb:
+      'Leading web development for the college government, which represents the students of the ' +
+      'College of Computer Studies.',
+    date: '2026 – Present',
+    kind: 'role',
+  },
+  {
+    title: 'Backend Engineer, Systems and Infrastructure',
+    subtitle: 'La Salle Computer Society',
+    blurb:
+      'Building the backend for Align, a team availability scheduler in TypeScript, Fastify and ' +
+      'PostgreSQL, from the availability endpoint to a schema held to its invariants by the database.',
+    date: 'September 2026 – Present',
+    kind: 'role',
+  },
+  {
     title: 'Galicious Secret Scanner',
     subtitle: 'Advanced and Offensive Security',
     blurb:
@@ -133,6 +151,15 @@ export const timeline: TimelineEntry[] = [
     kind: 'role',
     links: [{ label: 'Deployment Link', 
     href: 'https://dlsu-dss-dashboard.onrender.com/' }],
+  },
+  {
+    title: 'Director, Publications',
+    subtitle: 'Association for Computing Machinery – DLSU',
+    blurb:
+      'Led a committee of around ten writers as the publication arm of the College of Computer ' +
+      'Studies, and hosted workshops on technical research and writing.',
+    date: 'September 2025 – August 2026',
+    kind: 'role',
   },
   {
     title: 'Executive, External Relations',
