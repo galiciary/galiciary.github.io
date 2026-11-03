@@ -19,7 +19,7 @@ export const timeline: TimelineEntry[] = [
     blurb:
       'Leading web development for the college government, which represents the students of the ' +
       'College of Computer Studies.',
-    date: '2026 – Present',
+    date: 'September 2026 – Present',
     kind: 'role',
   },
   {
