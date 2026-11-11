@@ -36,8 +36,10 @@ export const timeline: TimelineEntry[] = [
     title: 'Galicious Secret Scanner',
     subtitle: 'Advanced and Offensive Security',
     blurb:
-      'A secret scanner with two detection engines and git-history scanning, built as the course ' +
-      'mini project on hacking tool creation.',
+      'A secret scanner with thirteen credential patterns, an entropy fallback and git-history ' +
+      'scanning, built by six of us for the course mini project on hacking tool creation. I wrote ' +
+      'the orchestration layer and CLI that tie the pipeline together, plus baseline, staged and ' +
+      'remediation handling.',
     date: 'August 2026',
     kind: 'project',
     links: [{ label: 'Demo', href: 'https://youtu.be/wDCP1lN0BF0' }],
@@ -110,9 +112,9 @@ export const timeline: TimelineEntry[] = [
     title: 'Macky vs Malware',
     subtitle: 'La Salle Computer Society',
     blurb:
-      'Spearheaded an awareness event on the risks people meet online, from malware and ' +
-      'phishing to the habits that let them through, planned over three months with the ' +
-      'team.',
+      'Spearheaded an awareness event on the risks people meet online, from malware and phishing ' +
+      'to the habits that let them through. Planned over three months with a team of seven, ' +
+      'where I ran most of the meetings, and run for around fifty attendees.',
     date: 'January 2026 – March 2026',
     kind: 'event',
   },

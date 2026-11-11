@@ -20,11 +20,12 @@ export const projects: Project[] = [
     kicker: 'Finds credentials people left in their code',
     blurb:
       'Scans a local folder or a GitHub repo for exposed secrets, including ones deleted from the ' +
-      'working tree but still recoverable from git history. Two engines feed one pipeline: a regex ' +
-      'signature library for known formats, and a Shannon-entropy fallback for custom tokens no ' +
-      'pattern recognises. Every finding is deduplicated, scored and redacted; no output, in any ' +
-      'format, ever contains a full secret. The tool is scoped to detection and reporting, ' +
-      'never exploitation.',
+      'working tree but still recoverable from git history. Two engines feed one pipeline: a ' +
+      'library of thirteen credential patterns for known formats, and a Shannon-entropy fallback ' +
+      'for custom tokens no pattern recognizes. Every finding is deduplicated, scored and ' +
+      'redacted; no output, in any format, ever contains a full secret. The tool is scoped to ' +
+      'detection and reporting, never exploitation. Built by a team of six, where I wrote the ' +
+      'orchestration layer and CLI behind the pipeline.',
     tags: ['Python', 'Security', 'CLI', 'pre-commit'],
     tone: 'c1',
     links: [
