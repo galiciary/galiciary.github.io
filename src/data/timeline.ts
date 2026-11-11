@@ -56,7 +56,8 @@ export const timeline: TimelineEntry[] = [
     subtitle: 'La Salle Computer Society',
     blurb:
       'Contributed to Check Republic, an automated compliance auditor for student-organization ' +
-      'documents, building the audit status endpoint and its integration tests.',
+      'documents, building the audit status endpoint that maps four async job states to their ' +
+      'HTTP responses, with integration tests covering each one.',
     date: 'May 2026 – August 2026',
     kind: 'role',
   },
@@ -127,8 +128,8 @@ export const timeline: TimelineEntry[] = [
     title: 'Forza Rentals: Car Rental DBMS',
     subtitle: 'Information Management',
     blurb:
-      'A Java desktop records system over a normalised MySQL schema, with a DAO layer between ' +
-      'the Swing views and the database.',
+      'A Java desktop records system over a normalized MySQL schema of eleven tables, with a ' +
+      'DAO layer between the Swing views and the database.',
     date: 'September – November 2025',
     kind: 'project',
     links: [{ label: 'Source', href: 'https://github.com/galiciary/ccinfom5' }],
@@ -146,8 +147,9 @@ export const timeline: TimelineEntry[] = [
     title: 'Associate, Data and Research',
     subtitle: 'DLSU Data Science Society',
     blurb:
-      'Wrote research-backed articles on emerging technologies, and built the cleaning pipeline ' +
-      'and overview page for the organization’s internal analytics dashboard.',
+      'Built the cleaning pipeline and overview page for the organization’s internal analytics ' +
+      'dashboard, standardizing around fifty free-text degree program spellings and reporting ' +
+      'attendance, registrations and satisfaction across six evaluation criteria.',
     date: 'September 2025 – August 2026',
     kind: 'role',
     links: [{ label: 'Deployment Link', 
