@@ -27,7 +27,8 @@ export const timeline: TimelineEntry[] = [
     subtitle: 'La Salle Computer Society',
     blurb:
       'Building the backend for Align, a team availability scheduler in TypeScript, Fastify and ' +
-      'PostgreSQL, from the availability endpoint to a schema held to its invariants by the database.',
+      'PostgreSQL. Wrote the create-event and availability endpoints, four of the project’s seven ' +
+      'database migrations, and over 40 tests that run against a real database.',
     date: 'September 2026 – Present',
     kind: 'role',
   },
