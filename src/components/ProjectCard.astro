@@ -51,6 +51,17 @@ const n = String(index + 1).padStart(2, '0');
       <p class="m-blurb">{project.blurb}</p>
       {project.metric && <p class="m-metric">{project.metric}</p>}
     </div>
+    {
+      project.shots && (
+        <div class="m-shots">
+          {project.shots.map((shot) => (
+            <figure>
+              <img src={shot.src} alt={shot.alt} loading="lazy" decoding="async" />
+            </figure>
+          ))}
+        </div>
+      )
+    }
     <ul class="m-tags">
       {project.tags.map((t) => <li>{t}</li>)}
     </ul>

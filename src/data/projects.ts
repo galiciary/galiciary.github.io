@@ -7,6 +7,8 @@ export type Project = {
   blurb: string;
   // the one hard number worth showing, when there is one
   metric?: string; // kept in cases to be used
+  // screenshots shown inside the modal, for work a visitor cannot open themselves
+  shots?: { src: string; alt: string }[];
   tags: string[];
   // which gradient this card gets, see --card-n-* in global.css
   tone: 'c1' | 'c2' | 'c3' | 'c4' | 'c5' | 'c6';
@@ -60,12 +62,22 @@ export const projects: Project[] = [
       'event attendance and satisfaction. Raw form exports land as messy spreadsheets; a cleaning ' +
       'layer normalizes them before anything is charted, and the overview page turns the result ' +
       'into headline counts, engagement rate, satisfaction and attendance trends, and event rankings.',
-    metric: 'Around 50 degree spellings standardized',
+    metric: '163 registrations and 153 attendees across 8 events',
+    shots: [
+      {
+        src: '/images/dss-dashboard-overview.jpg',
+        alt: 'The overview page: headline counts, engagement rate and average satisfaction across six criteria.',
+      },
+      {
+        src: '/images/dss-dashboard-rankings.jpg',
+        alt: 'Satisfaction trend chart and the most attended, least attended and highest rated events.',
+      },
+    ],
     tags: ['Python', 'Streamlit', 'pandas', 'Supabase', 'Altair'],
     tone: 'c2',
     links: [
       {
-        label: 'Deployment Link',
+        label: 'Deployment Link (DSS members only)',
         href: 'https://dlsu-dss-dashboard.onrender.com/',
       },
       { label: 'Source', 

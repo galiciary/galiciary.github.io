@@ -411,6 +411,26 @@ img {
   border: 1px solid #dfe4ea;
 }
 
+.project-modal .m-shots {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+}
+
+.project-modal .m-shots figure {
+  margin: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #dfe4ea;
+  background: #14161a;
+}
+
+.project-modal .m-shots img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .project-modal .m-tags {
   display: flex;
   flex-wrap: wrap;
