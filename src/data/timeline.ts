@@ -37,7 +37,7 @@ export const timeline: TimelineEntry[] = [
     subtitle: 'Advanced and Offensive Security',
     blurb:
       'A secret scanner with thirteen credential patterns, an entropy fallback and git-history ' +
-      'scanning, built by six of us for the course mini project on hacking tool creation. I wrote ' +
+      'scanning, built by five of us for the course mini project on hacking tool creation. I wrote ' +
       'the orchestration layer and CLI that tie the pipeline together, plus baseline, staged and ' +
       'remediation handling.',
     date: 'August 2026',
@@ -83,7 +83,7 @@ export const timeline: TimelineEntry[] = [
     subtitle: 'Central Committee',
     blurb:
       'Wrote the captions behind the event’s social posts and helped shape the marketing and ' +
-      'video concepts used to build reach and engagement.',
+      'video concepts used to build reach and engagement, as part of a committee of ten.',
     date: 'May 2026 – July 2026',
     kind: 'event',
   },
@@ -122,8 +122,8 @@ export const timeline: TimelineEntry[] = [
     title: 'Documentations AVP, AnimoChristmas 2025',
     subtitle: 'Central Committee',
     blurb:
-      'Handled the event’s documentation, reviewing it for inconsistencies and keeping the ' +
-      'records usable for the committees that depended on them.',
+      'Handled the event’s documentation for a committee of ten, reviewing it for ' +
+      'inconsistencies and keeping the records usable for the committees that depended on them.',
     date: 'October 2025 – December 2025',
     kind: 'event',
   },
@@ -189,8 +189,8 @@ export const timeline: TimelineEntry[] = [
     title: 'Executive, Creatives',
     subtitle: 'DLSU Microsoft Student Community',
     blurb:
-      'Designed publicity materials for community events and helped shape the design direction ' +
-      'behind them.',
+      'Designed publicity materials for community events with a team of five, and helped shape ' +
+      'the design direction behind them.',
     date: 'September 2024 – August 2025',
     kind: 'role',
   },
