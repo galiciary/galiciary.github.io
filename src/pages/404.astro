@@ -1,0 +1,59 @@
+---
+import Base from '../layouts/Base.astro';
+
+const title = 'Page not found';
+---
+
+<Base title={`${title} — Lance Galicia`} description="That page does not exist.">
+  <section class="notfound">
+    <div class="wrap">
+      <p class="code">404</p>
+      <h1>This page does not exist.</h1>
+      <p class="lede">
+        The link may be out of date, or the page may have moved. Everything on this site lives on
+        the home page.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="/">Back to home</a>
+        <a class="btn" href="/#work">See the projects</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .notfound {
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 4rem 0;
+  }
+
+  .code {
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 0.9rem;
+    letter-spacing: 0.18em;
+    opacity: 0.6;
+    margin: 0 0 0.75rem;
+  }
+
+  h1 {
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+  }
+
+  .lede {
+    max-width: 46ch;
+    margin: 0 auto 2rem;
+    opacity: 0.8;
+    line-height: 1.6;
+  }
+
+  .actions {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+</style>
