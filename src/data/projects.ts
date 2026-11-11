@@ -82,7 +82,8 @@ export const projects: Project[] = [
     blurb:
       'A centralised forum for verifying updates and coordinating relief during typhoons, ' +
       'earthquakes and floods. This is the kind of channel that goes missing exactly when the Philippines ' +
-      'needs it. Full MVC application with accounts, posting, profiles and uploads.',
+      'needs it. Built in a team of five, where I owned the posting side: twenty-two routes for ' +
+      'posts, comments, replies, votes, bookmarks and notifications.',
     tags: ['Node.js', 'Express', 'Handlebars', 'MongoDB'],
     tone: 'c4',
     links: [

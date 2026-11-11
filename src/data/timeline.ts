@@ -17,8 +17,8 @@ export const timeline: TimelineEntry[] = [
     title: 'Director, Web Development',
     subtitle: 'DLSU College of Computer Studies Government',
     blurb:
-      'Leading web development for the college government, which represents the students of the ' +
-      'College of Computer Studies.',
+      'Leading a committee of seven on web development for the college government, which ' +
+      'represents the students of the College of Computer Studies.',
     date: 'September 2026 – Present',
     kind: 'role',
   },
@@ -57,7 +57,7 @@ export const timeline: TimelineEntry[] = [
     blurb:
       'Contributed to Check Republic, an automated compliance auditor for student-organization ' +
       'documents, building the audit status endpoint that maps four async job states to their ' +
-      'HTTP responses, with integration tests covering each one.',
+      'HTTP responses, checked against the project’s Jest suite.',
     date: 'May 2026 – August 2026',
     kind: 'role',
   },
@@ -98,8 +98,9 @@ export const timeline: TimelineEntry[] = [
     title: 'ResQ: Response and Emergency Support Queue',
     subtitle: 'Web Application Development',
     blurb:
-      'Express backend for a disaster-response forum, covering authentication, posting and ' +
-      'profiles over a MongoDB data layer.',
+      'Built the posting side of a disaster-response forum in a team of five: twenty-two Express ' +
+      'routes for posts, comments, replies, votes, bookmarks and notifications over a MongoDB ' +
+      'data layer.',
     date: 'January 2026 – April 2026',
     kind: 'project',
     links: [{ label: 'Deployment Link', 
@@ -160,7 +161,8 @@ export const timeline: TimelineEntry[] = [
     subtitle: 'Association for Computing Machinery – DLSU',
     blurb:
       'Led a committee of around ten writers as the publication arm of the College of Computer ' +
-      'Studies, and hosted workshops on technical research and writing.',
+      'Studies, publishing over ten articles across two terms, and hosted workshops on technical ' +
+      'research and writing.',
     date: 'September 2025 – August 2026',
     kind: 'role',
   },
